@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "ng9translation": {
@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ng9translation"
+    }
+  },
+  "defaultProject": "ng9translation",
+  "cli": {
+    "analytics": "800b47aa-2ff4-46b0-adb5-25449687cf8c"
+  }
 }
