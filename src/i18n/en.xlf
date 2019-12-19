@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="54f1574ce7f55707e8b8815ad057001aaf039f88" datatype="html">
+        <source>app title</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="af0b96e5b4aebbe79d0be8317e255438591b23cd" datatype="html">
+        <source><x id="ICU" equiv-text="{numberOfClicks, plural, =0 {...} =1 {...} =2 {...} other {...}}"/>
+</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a292920c7a3417c924e84025596eca73646b605e" datatype="html">
+        <source>{VAR_PLURAL, plural, =0 {I never clicked the button} =1 {I clicked once} =2 {I clicked twice} other {I clicked <x id="INTERPOLATION" equiv-text="{{numberOfClicks}}"/> times} }</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4704b818f753c1488f552d08b57c178c8f34feb7" datatype="html">
+        <source>click me</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="878de3ad44e634ecaf219427d948689bd975e1af" datatype="html">
+        <source>reset</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
