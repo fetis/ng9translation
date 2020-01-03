@@ -48,6 +48,7 @@
               "extractLicenses": true,
               "vendorChunk": false,
               "buildOptimizer": true,
+              "localize": true,
               "budgets": [
                 {
                   "type": "initial",
@@ -60,6 +61,9 @@
                   "maximumError": "10kb"
                 }
               ]
+            },
+            "ru": {
+              "localize": ["ru"]
             }
           }
         },
@@ -71,6 +75,9 @@
           "configurations": {
             "production": {
               "browserTarget": "ng9translation:build:production"
+            },
+            "ru": {
+              "browserTarget": "ng9translation:build:ru"
             }
           }
         },
@@ -121,6 +128,12 @@
               "devServerTarget": "ng9translation:serve:production"
             }
           }
+        }
+      },
+      "i18n": {
+        "sourceLocale": "en",
+        "locales": {
+          "ru": "src/i18n/ru.xlf"
         }
       }
     }

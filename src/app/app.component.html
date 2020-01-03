@@ -1,4 +1,4 @@
-<h1 i18n>app title</h1>
+<h1 i18n>app title ({{ locale }})</h1>
 
 <p i18n>{numberOfClicks, plural,
   =0 {I never clicked the button}
@@ -9,4 +9,4 @@
 
 
 <button (click)="numberOfClicks = numberOfClicks + 1" i18n>click me</button>
-<button (click)="numberOfClicks = 0" i18n>reset</button>
+<button (click)="numberOfClicks = 0" i18n="@@resetButton">reset</button>

@@ -5,18 +5,10 @@
       <tool tool-id="lokalise.com" tool-name="Lokalise"/>
     </header>
     <body>
-      <trans-unit id="54f1574ce7f55707e8b8815ad057001aaf039f88" datatype="html">
-        <source>app title</source>
-        <target>заголовок приложения</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">1</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="af0b96e5b4aebbe79d0be8317e255438591b23cd" datatype="html">
         <source><x id="ICU" equiv-text="{numberOfClicks, plural, =0 {...} =1 {...} =2 {...} other {...}}"/>
 </source>
-        <target></target>
+        <target><x id="ICU" equiv-text="{numberOfClicks, plural, =0 {...} =1 {...} =2 {...} other {...}}"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">3</context>
@@ -38,7 +30,15 @@
           <context context-type="linenumber">11</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="878de3ad44e634ecaf219427d948689bd975e1af" datatype="html">
+      <trans-unit id="a584c8d1a7427fa391ecbe49ea48648af8bc3a51" datatype="html">
+        <source>app title (<x id="INTERPOLATION" equiv-text="{{ locale }}"/>)</source>
+        <target>название приложения (<x id="INTERPOLATION" equiv-text="{{ locale }}"/>)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="resetButton" datatype="html">
         <source>reset</source>
         <target>сбросить</target>
         <context-group purpose="location">
